@@ -1,0 +1,36 @@
+# Ignore Gradle and Maven build directories
+/build/
+/target/
+
+# Ignore IntelliJ IDEA files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+
+# Ignore Spring Boot generated files
+/target/
+/bin/
+/build/
+
+# Ignore Docker artifacts
+.dockerignore
+
+# Ignore logs
+/logs/
+
+# Ignore temporary files
+*.log
+*.tmp
+
+# Ignore compiled Java class files
+*.class
+
+# Ignore Docker build context files
+admin-service/target/
+api-gateway-service/target/
+eureka-server-application/target/
+instructor-service/target/
+learner-service/target/
+transaction-service/target/
